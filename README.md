@@ -1,10 +1,8 @@
 # PokeShadowBench
 
-**Dataset:** [PokeShadowBench](https://huggingface.co/datasets/freddie/pokeshadowbench)
-
 ## Dataset Summary
 
-This dataset contains silhouette images from the "Who's That Pokémon?" segments from the Pokémon anime series. Each entry includes:
+[PokeShadowBench](https://huggingface.co/datasets/freddie/pokeshadowbench) contains silhouette images from the "Who's That Pokémon?" segments from the Pokémon anime series. Each entry includes:
 - A silhouette image of a Pokémon
 - The Pokédex number
 - The name of the Pokémon
@@ -175,6 +173,8 @@ Given a Pokémon silhouette image, predict the correct Pokémon species.
 </details>
 
 ### Individual Predictions
+
+See raw results here: https://github.com/freddiev4/pokeshadowbench/tree/main/results
 
 
 ## Setup
