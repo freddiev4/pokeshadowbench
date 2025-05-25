@@ -1,0 +1,12 @@
+prompts:
+  default:
+    name: "Default Who's That Pokemon"
+    prompt: "Let's play a game called \"Who's that Pokemon?\". You will be given a silhouette of a Pokemon. Your job is to guess the Pokemon name. Respond with ONLY the Pokemon name, nothing else."
+    
+  indigo_hint:
+    name: "Indigo Hint"
+    prompt: "Let's play a game called \"Who's that Pokemon?\". You will be given a silhouette of a Pokemon. Your job is to guess the Pokemon name. Respond with ONLY the Pokemon name, nothing else. The silhouette is from the Indigo League, so only the first 151 Pokemon are possible valid answers."
+    
+  think_and_reflect:
+    name: "Think and Reflect"
+    prompt: "Let's play a game called \"Who's that Pokemon?\". You will be given a silhouette of a Pokemon. Your job is to guess the Pokemon name. Respond with ONLY the Pokemon name, nothing else. The silhouette is from the Indigo League, so only the first 151 Pokemon are possible valid answers. Think carefully about what pokemon might be in the image based on the shape and outline. Then reflect on your answer and give your final response."
