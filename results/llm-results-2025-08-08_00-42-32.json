@@ -1,0 +1,3746 @@
+{
+  "default": {
+    "prompt_name": "Default Prompt",
+    "prompt_text": "Let's play a game called \"Who's that Pokemon?\". You will be given a silhouette of a Pokemon. Your job is to guess the Pokemon name. Respond with ONLY the Pokemon name, nothing else.",
+    "providers": {
+      "openai": {
+        "o4-mini-2025-04-16": {
+          "correct": 23,
+          "total": 59,
+          "responses": [
+            {
+              "pokemon": "abra",
+              "prediction": "bulbasaur",
+              "correct": false
+            },
+            {
+              "pokemon": "aerodactyl",
+              "prediction": "aerodactyl",
+              "correct": true
+            },
+            {
+              "pokemon": "alakazam",
+              "prediction": "lucario",
+              "correct": false
+            },
+            {
+              "pokemon": "arbok",
+              "prediction": "squirtle",
+              "correct": false
+            },
+            {
+              "pokemon": "arcanine",
+              "prediction": "bulbasaur",
+              "correct": false
+            },
+            {
+              "pokemon": "bellsprout",
+              "prediction": "oddish",
+              "correct": false
+            },
+            {
+              "pokemon": "bulbasaur",
+              "prediction": "bulbasaur",
+              "correct": true
+            },
+            {
+              "pokemon": "butterfree",
+              "prediction": "butterfree",
+              "correct": true
+            },
+            {
+              "pokemon": "caterpie",
+              "prediction": "marill",
+              "correct": false
+            },
+            {
+              "pokemon": "charmander",
+              "prediction": "charmander",
+              "correct": true
+            },
+            {
+              "pokemon": "clefairy",
+              "prediction": "bulbasaur",
+              "correct": false
+            },
+            {
+              "pokemon": "cloyster",
+              "prediction": "qwilfish",
+              "correct": false
+            },
+            {
+              "pokemon": "cubone",
+              "prediction": "cubone",
+              "correct": true
+            },
+            {
+              "pokemon": "diglett",
+              "prediction": "muk",
+              "correct": false
+            },
+            {
+              "pokemon": "ditto",
+              "prediction": "ditto",
+              "correct": true
+            },
+            {
+              "pokemon": "eevee",
+              "prediction": "eevee",
+              "correct": true
+            },
+            {
+              "pokemon": "exeggcute",
+              "prediction": "exeggcute",
+              "correct": true
+            },
+            {
+              "pokemon": "farfetchd",
+              "prediction": "psyduck",
+              "correct": false
+            },
+            {
+              "pokemon": "fearow",
+              "prediction": "moltres",
+              "correct": false
+            },
+            {
+              "pokemon": "gastly",
+              "prediction": "muk",
+              "correct": false
+            },
+            {
+              "pokemon": "gengar",
+              "prediction": "gengar",
+              "correct": true
+            },
+            {
+              "pokemon": "geodude",
+              "prediction": "geodude",
+              "correct": true
+            },
+            {
+              "pokemon": "gloom",
+              "prediction": "tangela",
+              "correct": false
+            },
+            {
+              "pokemon": "growlithe",
+              "prediction": "growlithe",
+              "correct": true
+            },
+            {
+              "pokemon": "haunter",
+              "prediction": "gengar",
+              "correct": false
+            },
+            {
+              "pokemon": "hitmonchan",
+              "prediction": "machop",
+              "correct": false
+            },
+            {
+              "pokemon": "horsea",
+              "prediction": "wartortle",
+              "correct": false
+            },
+            {
+              "pokemon": "ivysaur",
+              "prediction": "primeape",
+              "correct": false
+            },
+            {
+              "pokemon": "jigglypuff",
+              "prediction": "jigglypuff",
+              "correct": true
+            },
+            {
+              "pokemon": "jynx",
+              "prediction": "",
+              "correct": false
+            },
+            {
+              "pokemon": "kabutops",
+              "prediction": "gliscor",
+              "correct": false
+            },
+            {
+              "pokemon": "kangaskhan",
+              "prediction": "kangaskhan",
+              "correct": true
+            },
+            {
+              "pokemon": "koffing",
+              "prediction": "koffing",
+              "correct": true
+            },
+            {
+              "pokemon": "krabby",
+              "prediction": "kingler",
+              "correct": false
+            },
+            {
+              "pokemon": "magikarp",
+              "prediction": "magikarp",
+              "correct": true
+            },
+            {
+              "pokemon": "magmar",
+              "prediction": "tyranitar",
+              "correct": false
+            },
+            {
+              "pokemon": "magnemite",
+              "prediction": "magnemite",
+              "correct": true
+            },
+            {
+              "pokemon": "metapod",
+              "prediction": "lunatone",
+              "correct": false
+            },
+            {
+              "pokemon": "moltres",
+              "prediction": "articuno",
+              "correct": false
+            },
+            {
+              "pokemon": "mr",
+              "prediction": "mr. mime",
+              "correct": false
+            },
+            {
+              "pokemon": "nidoran\u2642",
+              "prediction": "cloyster",
+              "correct": false
+            },
+            {
+              "pokemon": "onix",
+              "prediction": "onix",
+              "correct": true
+            },
+            {
+              "pokemon": "paras",
+              "prediction": "kingler",
+              "correct": false
+            },
+            {
+              "pokemon": "pidgeotto",
+              "prediction": "spearow",
+              "correct": false
+            },
+            {
+              "pokemon": "pikachu",
+              "prediction": "pikachu",
+              "correct": true
+            },
+            {
+              "pokemon": "ponyta",
+              "prediction": "ponyta",
+              "correct": true
+            },
+            {
+              "pokemon": "primeape",
+              "prediction": "kingler",
+              "correct": false
+            },
+            {
+              "pokemon": "psyduck",
+              "prediction": "psyduck",
+              "correct": true
+            },
+            {
+              "pokemon": "raichu",
+              "prediction": "pikachu",
+              "correct": false
+            },
+            {
+              "pokemon": "raticate",
+              "prediction": "rattata",
+              "correct": false
+            },
+            {
+              "pokemon": "sandshrew",
+              "prediction": "squirtle",
+              "correct": false
+            },
+            {
+              "pokemon": "scyther",
+              "prediction": "garchomp",
+              "correct": false
+            },
+            {
+              "pokemon": "seaking",
+              "prediction": "muk",
+              "correct": false
+            },
+            {
+              "pokemon": "seel",
+              "prediction": "wynaut",
+              "correct": false
+            },
+            {
+              "pokemon": "slowbro",
+              "prediction": "",
+              "correct": false
+            },
+            {
+              "pokemon": "snorlax",
+              "prediction": "snorlax",
+              "correct": true
+            },
+            {
+              "pokemon": "squirtle",
+              "prediction": "squirtle",
+              "correct": true
+            },
+            {
+              "pokemon": "venonat",
+              "prediction": "venonat",
+              "correct": true
+            },
+            {
+              "pokemon": "vileplume",
+              "prediction": "breloom",
+              "correct": false
+            },
+            {
+              "pokemon": "vulpix",
+              "prediction": "mareep",
+              "correct": false
+            },
+            {
+              "pokemon": "wartortle",
+              "prediction": "aipom",
+              "correct": false
+            }
+          ]
+        },
+        "gpt-4.1-2025-04-14": {
+          "correct": 26,
+          "total": 61,
+          "responses": [
+            {
+              "pokemon": "abra",
+              "prediction": "bulbasaur",
+              "correct": false
+            },
+            {
+              "pokemon": "aerodactyl",
+              "prediction": "charizard",
+              "correct": false
+            },
+            {
+              "pokemon": "alakazam",
+              "prediction": "parasect",
+              "correct": false
+            },
+            {
+              "pokemon": "arbok",
+              "prediction": "wobbuffet",
+              "correct": false
+            },
+            {
+              "pokemon": "arcanine",
+              "prediction": "arcanine",
+              "correct": true
+            },
+            {
+              "pokemon": "bellsprout",
+              "prediction": "bellsprout",
+              "correct": true
+            },
+            {
+              "pokemon": "bulbasaur",
+              "prediction": "bulbasaur",
+              "correct": true
+            },
+            {
+              "pokemon": "butterfree",
+              "prediction": "butterfree",
+              "correct": true
+            },
+            {
+              "pokemon": "caterpie",
+              "prediction": "seal",
+              "correct": false
+            },
+            {
+              "pokemon": "charmander",
+              "prediction": "charmander",
+              "correct": true
+            },
+            {
+              "pokemon": "clefairy",
+              "prediction": "jigglypuff",
+              "correct": false
+            },
+            {
+              "pokemon": "cloyster",
+              "prediction": "jigglypuff",
+              "correct": false
+            },
+            {
+              "pokemon": "cubone",
+              "prediction": "alakazam",
+              "correct": false
+            },
+            {
+              "pokemon": "diglett",
+              "prediction": "ditto",
+              "correct": false
+            },
+            {
+              "pokemon": "ditto",
+              "prediction": "ditto",
+              "correct": true
+            },
+            {
+              "pokemon": "eevee",
+              "prediction": "eevee",
+              "correct": true
+            },
+            {
+              "pokemon": "exeggcute",
+              "prediction": "jigglypuff",
+              "correct": false
+            },
+            {
+              "pokemon": "farfetchd",
+              "prediction": "torchic",
+              "correct": false
+            },
+            {
+              "pokemon": "fearow",
+              "prediction": "articuno",
+              "correct": false
+            },
+            {
+              "pokemon": "gastly",
+              "prediction": "ditto",
+              "correct": false
+            },
+            {
+              "pokemon": "gengar",
+              "prediction": "nidoking",
+              "correct": false
+            },
+            {
+              "pokemon": "geodude",
+              "prediction": "geodude",
+              "correct": true
+            },
+            {
+              "pokemon": "gloom",
+              "prediction": "tangela",
+              "correct": false
+            },
+            {
+              "pokemon": "growlithe",
+              "prediction": "growlithe",
+              "correct": true
+            },
+            {
+              "pokemon": "haunter",
+              "prediction": "jigglypuff",
+              "correct": false
+            },
+            {
+              "pokemon": "hitmonchan",
+              "prediction": "weavile",
+              "correct": false
+            },
+            {
+              "pokemon": "horsea",
+              "prediction": "horsea",
+              "correct": true
+            },
+            {
+              "pokemon": "ivysaur",
+              "prediction": "jigglypuff",
+              "correct": false
+            },
+            {
+              "pokemon": "jigglypuff",
+              "prediction": "jigglypuff",
+              "correct": true
+            },
+            {
+              "pokemon": "jynx",
+              "prediction": "jynx",
+              "correct": true
+            },
+            {
+              "pokemon": "kabutops",
+              "prediction": "sableye",
+              "correct": false
+            },
+            {
+              "pokemon": "kangaskhan",
+              "prediction": "clefairy",
+              "correct": false
+            },
+            {
+              "pokemon": "koffing",
+              "prediction": "jigglypuff",
+              "correct": false
+            },
+            {
+              "pokemon": "krabby",
+              "prediction": "kingler",
+              "correct": false
+            },
+            {
+              "pokemon": "magikarp",
+              "prediction": "mudkip",
+              "correct": false
+            },
+            {
+              "pokemon": "magmar",
+              "prediction": "feraligatr",
+              "correct": false
+            },
+            {
+              "pokemon": "magnemite",
+              "prediction": "magnemite",
+              "correct": true
+            },
+            {
+              "pokemon": "metapod",
+              "prediction": "lugia",
+              "correct": false
+            },
+            {
+              "pokemon": "moltres",
+              "prediction": "articuno",
+              "correct": false
+            },
+            {
+              "pokemon": "mr",
+              "prediction": "poliwrath",
+              "correct": false
+            },
+            {
+              "pokemon": "nidoran\u2642",
+              "prediction": "venusaur",
+              "correct": false
+            },
+            {
+              "pokemon": "onix",
+              "prediction": "onix",
+              "correct": true
+            },
+            {
+              "pokemon": "paras",
+              "prediction": "paras",
+              "correct": true
+            },
+            {
+              "pokemon": "pidgeotto",
+              "prediction": "pidgeotto",
+              "correct": true
+            },
+            {
+              "pokemon": "pikachu",
+              "prediction": "pikachu",
+              "correct": true
+            },
+            {
+              "pokemon": "ponyta",
+              "prediction": "ponyta",
+              "correct": true
+            },
+            {
+              "pokemon": "primeape",
+              "prediction": "venusaur",
+              "correct": false
+            },
+            {
+              "pokemon": "psyduck",
+              "prediction": "psyduck",
+              "correct": true
+            },
+            {
+              "pokemon": "raichu",
+              "prediction": "raichu",
+              "correct": true
+            },
+            {
+              "pokemon": "raticate",
+              "prediction": "raticate",
+              "correct": true
+            },
+            {
+              "pokemon": "sandshrew",
+              "prediction": "sandshrew",
+              "correct": true
+            },
+            {
+              "pokemon": "scyther",
+              "prediction": "zekrom",
+              "correct": false
+            },
+            {
+              "pokemon": "seaking",
+              "prediction": "poliwag",
+              "correct": false
+            },
+            {
+              "pokemon": "seel",
+              "prediction": "poliwag",
+              "correct": false
+            },
+            {
+              "pokemon": "slowbro",
+              "prediction": "lapras",
+              "correct": false
+            },
+            {
+              "pokemon": "snorlax",
+              "prediction": "snorlax",
+              "correct": true
+            },
+            {
+              "pokemon": "squirtle",
+              "prediction": "squirtle",
+              "correct": true
+            },
+            {
+              "pokemon": "venonat",
+              "prediction": "venonat",
+              "correct": true
+            },
+            {
+              "pokemon": "vileplume",
+              "prediction": "oddish",
+              "correct": false
+            },
+            {
+              "pokemon": "vulpix",
+              "prediction": "vulpix",
+              "correct": true
+            },
+            {
+              "pokemon": "wartortle",
+              "prediction": "jigglypuff",
+              "correct": false
+            }
+          ]
+        },
+        "gpt-4o-2024-11-20": {
+          "correct": 22,
+          "total": 61,
+          "responses": [
+            {
+              "pokemon": "abra",
+              "prediction": "sandshrew",
+              "correct": false
+            },
+            {
+              "pokemon": "aerodactyl",
+              "prediction": "charizard",
+              "correct": false
+            },
+            {
+              "pokemon": "alakazam",
+              "prediction": "luxray",
+              "correct": false
+            },
+            {
+              "pokemon": "arbok",
+              "prediction": "wobbuffet",
+              "correct": false
+            },
+            {
+              "pokemon": "arcanine",
+              "prediction": "growlithe",
+              "correct": false
+            },
+            {
+              "pokemon": "bellsprout",
+              "prediction": "weepinbell",
+              "correct": false
+            },
+            {
+              "pokemon": "bulbasaur",
+              "prediction": "venusaur",
+              "correct": false
+            },
+            {
+              "pokemon": "butterfree",
+              "prediction": "butterfree",
+              "correct": true
+            },
+            {
+              "pokemon": "caterpie",
+              "prediction": "caterpie",
+              "correct": true
+            },
+            {
+              "pokemon": "charmander",
+              "prediction": "charmander",
+              "correct": true
+            },
+            {
+              "pokemon": "clefairy",
+              "prediction": "jigglypuff",
+              "correct": false
+            },
+            {
+              "pokemon": "cloyster",
+              "prediction": "pikachu",
+              "correct": false
+            },
+            {
+              "pokemon": "cubone",
+              "prediction": "cubone",
+              "correct": true
+            },
+            {
+              "pokemon": "diglett",
+              "prediction": "ditto",
+              "correct": false
+            },
+            {
+              "pokemon": "ditto",
+              "prediction": "ditto",
+              "correct": true
+            },
+            {
+              "pokemon": "eevee",
+              "prediction": "eevee",
+              "correct": true
+            },
+            {
+              "pokemon": "exeggcute",
+              "prediction": "oddish",
+              "correct": false
+            },
+            {
+              "pokemon": "farfetchd",
+              "prediction": "torchic",
+              "correct": false
+            },
+            {
+              "pokemon": "fearow",
+              "prediction": "pidgeotto",
+              "correct": false
+            },
+            {
+              "pokemon": "gastly",
+              "prediction": "ditto",
+              "correct": false
+            },
+            {
+              "pokemon": "gengar",
+              "prediction": "typhlosion",
+              "correct": false
+            },
+            {
+              "pokemon": "geodude",
+              "prediction": "geodude",
+              "correct": true
+            },
+            {
+              "pokemon": "gloom",
+              "prediction": "tangela",
+              "correct": false
+            },
+            {
+              "pokemon": "growlithe",
+              "prediction": "growlithe",
+              "correct": true
+            },
+            {
+              "pokemon": "haunter",
+              "prediction": "nidoking",
+              "correct": false
+            },
+            {
+              "pokemon": "hitmonchan",
+              "prediction": "lucario",
+              "correct": false
+            },
+            {
+              "pokemon": "horsea",
+              "prediction": "horsea",
+              "correct": true
+            },
+            {
+              "pokemon": "ivysaur",
+              "prediction": "snorlax",
+              "correct": false
+            },
+            {
+              "pokemon": "jigglypuff",
+              "prediction": "jigglypuff",
+              "correct": true
+            },
+            {
+              "pokemon": "jynx",
+              "prediction": "jynx",
+              "correct": true
+            },
+            {
+              "pokemon": "kabutops",
+              "prediction": "sableye",
+              "correct": false
+            },
+            {
+              "pokemon": "kangaskhan",
+              "prediction": "snorlax",
+              "correct": false
+            },
+            {
+              "pokemon": "koffing",
+              "prediction": "electrode",
+              "correct": false
+            },
+            {
+              "pokemon": "krabby",
+              "prediction": "kingler",
+              "correct": false
+            },
+            {
+              "pokemon": "magikarp",
+              "prediction": "marshtomp",
+              "correct": false
+            },
+            {
+              "pokemon": "magmar",
+              "prediction": "feraligatr",
+              "correct": false
+            },
+            {
+              "pokemon": "magnemite",
+              "prediction": "magnemite",
+              "correct": true
+            },
+            {
+              "pokemon": "metapod",
+              "prediction": "marill",
+              "correct": false
+            },
+            {
+              "pokemon": "moltres",
+              "prediction": "articuno",
+              "correct": false
+            },
+            {
+              "pokemon": "mr",
+              "prediction": "poliwrath",
+              "correct": false
+            },
+            {
+              "pokemon": "nidoran\u2642",
+              "prediction": "typhlosion",
+              "correct": false
+            },
+            {
+              "pokemon": "onix",
+              "prediction": "caterpie",
+              "correct": false
+            },
+            {
+              "pokemon": "paras",
+              "prediction": "krabby",
+              "correct": false
+            },
+            {
+              "pokemon": "pidgeotto",
+              "prediction": "tailow",
+              "correct": false
+            },
+            {
+              "pokemon": "pikachu",
+              "prediction": "pikachu",
+              "correct": true
+            },
+            {
+              "pokemon": "ponyta",
+              "prediction": "ponyta",
+              "correct": true
+            },
+            {
+              "pokemon": "primeape",
+              "prediction": "shellder",
+              "correct": false
+            },
+            {
+              "pokemon": "psyduck",
+              "prediction": "psyduck",
+              "correct": true
+            },
+            {
+              "pokemon": "raichu",
+              "prediction": "raichu",
+              "correct": true
+            },
+            {
+              "pokemon": "raticate",
+              "prediction": "raticate",
+              "correct": true
+            },
+            {
+              "pokemon": "sandshrew",
+              "prediction": "slowpoke",
+              "correct": false
+            },
+            {
+              "pokemon": "scyther",
+              "prediction": "scizor",
+              "correct": false
+            },
+            {
+              "pokemon": "seaking",
+              "prediction": "squirtle",
+              "correct": false
+            },
+            {
+              "pokemon": "seel",
+              "prediction": "wobbuffet",
+              "correct": false
+            },
+            {
+              "pokemon": "slowbro",
+              "prediction": "slowbro",
+              "correct": true
+            },
+            {
+              "pokemon": "snorlax",
+              "prediction": "snorlax",
+              "correct": true
+            },
+            {
+              "pokemon": "squirtle",
+              "prediction": "squirtle",
+              "correct": true
+            },
+            {
+              "pokemon": "venonat",
+              "prediction": "venonat",
+              "correct": true
+            },
+            {
+              "pokemon": "vileplume",
+              "prediction": "gloom",
+              "correct": false
+            },
+            {
+              "pokemon": "vulpix",
+              "prediction": "vulpix",
+              "correct": true
+            },
+            {
+              "pokemon": "wartortle",
+              "prediction": "wigglytuff",
+              "correct": false
+            }
+          ]
+        },
+        "gpt-5-nano-2025-08-07": {
+          "correct": 8,
+          "total": 60,
+          "responses": [
+            {
+              "pokemon": "abra",
+              "prediction": "lucario",
+              "correct": false
+            },
+            {
+              "pokemon": "aerodactyl",
+              "prediction": "salamence",
+              "correct": false
+            },
+            {
+              "pokemon": "alakazam",
+              "prediction": "mewtwo",
+              "correct": false
+            },
+            {
+              "pokemon": "arbok",
+              "prediction": "tentacool",
+              "correct": false
+            },
+            {
+              "pokemon": "arcanine",
+              "prediction": "rhydon",
+              "correct": false
+            },
+            {
+              "pokemon": "bellsprout",
+              "prediction": "horsea",
+              "correct": false
+            },
+            {
+              "pokemon": "bulbasaur",
+              "prediction": "snorlax",
+              "correct": false
+            },
+            {
+              "pokemon": "butterfree",
+              "prediction": "butterfree",
+              "correct": true
+            },
+            {
+              "pokemon": "caterpie",
+              "prediction": "ekans",
+              "correct": false
+            },
+            {
+              "pokemon": "charmander",
+              "prediction": "eevee",
+              "correct": false
+            },
+            {
+              "pokemon": "clefairy",
+              "prediction": "eevee",
+              "correct": false
+            },
+            {
+              "pokemon": "cloyster",
+              "prediction": "gengar",
+              "correct": false
+            },
+            {
+              "pokemon": "cubone",
+              "prediction": "sandslash",
+              "correct": false
+            },
+            {
+              "pokemon": "diglett",
+              "prediction": "squirtle",
+              "correct": false
+            },
+            {
+              "pokemon": "ditto",
+              "prediction": "ditto",
+              "correct": true
+            },
+            {
+              "pokemon": "eevee",
+              "prediction": "pikachu",
+              "correct": false
+            },
+            {
+              "pokemon": "exeggcute",
+              "prediction": "wobbuffet",
+              "correct": false
+            },
+            {
+              "pokemon": "farfetchd",
+              "prediction": "pidgey",
+              "correct": false
+            },
+            {
+              "pokemon": "fearow",
+              "prediction": "articuno",
+              "correct": false
+            },
+            {
+              "pokemon": "gastly",
+              "prediction": "grimer",
+              "correct": false
+            },
+            {
+              "pokemon": "gengar",
+              "prediction": "jolteon",
+              "correct": false
+            },
+            {
+              "pokemon": "geodude",
+              "prediction": "machamp",
+              "correct": false
+            },
+            {
+              "pokemon": "gloom",
+              "prediction": "wobbuffet",
+              "correct": false
+            },
+            {
+              "pokemon": "growlithe",
+              "prediction": "snorlax",
+              "correct": false
+            },
+            {
+              "pokemon": "haunter",
+              "prediction": "pikachu",
+              "correct": false
+            },
+            {
+              "pokemon": "hitmonchan",
+              "prediction": "jolteon",
+              "correct": false
+            },
+            {
+              "pokemon": "horsea",
+              "prediction": "pikachu",
+              "correct": false
+            },
+            {
+              "pokemon": "ivysaur",
+              "prediction": "eevee",
+              "correct": false
+            },
+            {
+              "pokemon": "jigglypuff",
+              "prediction": "jigglypuff",
+              "correct": true
+            },
+            {
+              "pokemon": "jynx",
+              "prediction": "snorlax",
+              "correct": false
+            },
+            {
+              "pokemon": "kabutops",
+              "prediction": "scyther",
+              "correct": false
+            },
+            {
+              "pokemon": "kangaskhan",
+              "prediction": "gengar",
+              "correct": false
+            },
+            {
+              "pokemon": "koffing",
+              "prediction": "goomy",
+              "correct": false
+            },
+            {
+              "pokemon": "krabby",
+              "prediction": "",
+              "correct": false
+            },
+            {
+              "pokemon": "magikarp",
+              "prediction": "seadra",
+              "correct": false
+            },
+            {
+              "pokemon": "magmar",
+              "prediction": "charizard",
+              "correct": false
+            },
+            {
+              "pokemon": "magnemite",
+              "prediction": "magnemite",
+              "correct": true
+            },
+            {
+              "pokemon": "metapod",
+              "prediction": "gyarados",
+              "correct": false
+            },
+            {
+              "pokemon": "moltres",
+              "prediction": "gyarados",
+              "correct": false
+            },
+            {
+              "pokemon": "mr",
+              "prediction": "machamp",
+              "correct": false
+            },
+            {
+              "pokemon": "nidoran\u2642",
+              "prediction": "jolteon",
+              "correct": false
+            },
+            {
+              "pokemon": "onix",
+              "prediction": "ekans",
+              "correct": false
+            },
+            {
+              "pokemon": "paras",
+              "prediction": "jigglypuff",
+              "correct": false
+            },
+            {
+              "pokemon": "pidgeotto",
+              "prediction": "articuno",
+              "correct": false
+            },
+            {
+              "pokemon": "pikachu",
+              "prediction": "pikachu",
+              "correct": true
+            },
+            {
+              "pokemon": "ponyta",
+              "prediction": "arcanine",
+              "correct": false
+            },
+            {
+              "pokemon": "primeape",
+              "prediction": "machamp",
+              "correct": false
+            },
+            {
+              "pokemon": "psyduck",
+              "prediction": "piplup",
+              "correct": false
+            },
+            {
+              "pokemon": "raichu",
+              "prediction": "greninja",
+              "correct": false
+            },
+            {
+              "pokemon": "raticate",
+              "prediction": "slowpoke",
+              "correct": false
+            },
+            {
+              "pokemon": "sandshrew",
+              "prediction": "eevee",
+              "correct": false
+            },
+            {
+              "pokemon": "scyther",
+              "prediction": "scyther",
+              "correct": true
+            },
+            {
+              "pokemon": "seaking",
+              "prediction": "muk",
+              "correct": false
+            },
+            {
+              "pokemon": "seel",
+              "prediction": "pikachu",
+              "correct": false
+            },
+            {
+              "pokemon": "slowbro",
+              "prediction": "snorlax",
+              "correct": false
+            },
+            {
+              "pokemon": "snorlax",
+              "prediction": "snorlax",
+              "correct": true
+            },
+            {
+              "pokemon": "squirtle",
+              "prediction": "marill",
+              "correct": false
+            },
+            {
+              "pokemon": "venonat",
+              "prediction": "venonat",
+              "correct": true
+            },
+            {
+              "pokemon": "vileplume",
+              "prediction": "wobbuffet",
+              "correct": false
+            },
+            {
+              "pokemon": "vulpix",
+              "prediction": "eevee",
+              "correct": false
+            },
+            {
+              "pokemon": "wartortle",
+              "prediction": "eevee",
+              "correct": false
+            }
+          ]
+        },
+        "gpt-5-mini-2025-08-07": {
+          "correct": 24,
+          "total": 61,
+          "responses": [
+            {
+              "pokemon": "abra",
+              "prediction": "squirtle",
+              "correct": false
+            },
+            {
+              "pokemon": "aerodactyl",
+              "prediction": "charizard",
+              "correct": false
+            },
+            {
+              "pokemon": "alakazam",
+              "prediction": "hydreigon",
+              "correct": false
+            },
+            {
+              "pokemon": "arbok",
+              "prediction": "squirtle",
+              "correct": false
+            },
+            {
+              "pokemon": "arcanine",
+              "prediction": "bulbasaur",
+              "correct": false
+            },
+            {
+              "pokemon": "bellsprout",
+              "prediction": "oddish",
+              "correct": false
+            },
+            {
+              "pokemon": "bulbasaur",
+              "prediction": "bulbasaur",
+              "correct": true
+            },
+            {
+              "pokemon": "butterfree",
+              "prediction": "butterfree",
+              "correct": true
+            },
+            {
+              "pokemon": "caterpie",
+              "prediction": "wynaut",
+              "correct": false
+            },
+            {
+              "pokemon": "charmander",
+              "prediction": "charmander",
+              "correct": true
+            },
+            {
+              "pokemon": "clefairy",
+              "prediction": "jigglypuff",
+              "correct": false
+            },
+            {
+              "pokemon": "cloyster",
+              "prediction": "gengar",
+              "correct": false
+            },
+            {
+              "pokemon": "cubone",
+              "prediction": "cubone",
+              "correct": true
+            },
+            {
+              "pokemon": "diglett",
+              "prediction": "ditto",
+              "correct": false
+            },
+            {
+              "pokemon": "ditto",
+              "prediction": "ditto",
+              "correct": true
+            },
+            {
+              "pokemon": "eevee",
+              "prediction": "eevee",
+              "correct": true
+            },
+            {
+              "pokemon": "exeggcute",
+              "prediction": "exeggcute",
+              "correct": true
+            },
+            {
+              "pokemon": "farfetchd",
+              "prediction": "torchic",
+              "correct": false
+            },
+            {
+              "pokemon": "fearow",
+              "prediction": "pidgeotto",
+              "correct": false
+            },
+            {
+              "pokemon": "gastly",
+              "prediction": "muk",
+              "correct": false
+            },
+            {
+              "pokemon": "gengar",
+              "prediction": "gengar",
+              "correct": true
+            },
+            {
+              "pokemon": "geodude",
+              "prediction": "geodude",
+              "correct": true
+            },
+            {
+              "pokemon": "gloom",
+              "prediction": "jigglypuff",
+              "correct": false
+            },
+            {
+              "pokemon": "growlithe",
+              "prediction": "growlithe",
+              "correct": true
+            },
+            {
+              "pokemon": "haunter",
+              "prediction": "gengar",
+              "correct": false
+            },
+            {
+              "pokemon": "hitmonchan",
+              "prediction": "primeape",
+              "correct": false
+            },
+            {
+              "pokemon": "horsea",
+              "prediction": "wynaut",
+              "correct": false
+            },
+            {
+              "pokemon": "ivysaur",
+              "prediction": "snorlax",
+              "correct": false
+            },
+            {
+              "pokemon": "jigglypuff",
+              "prediction": "jigglypuff",
+              "correct": true
+            },
+            {
+              "pokemon": "jynx",
+              "prediction": "jynx",
+              "correct": true
+            },
+            {
+              "pokemon": "kabutops",
+              "prediction": "kabutops",
+              "correct": true
+            },
+            {
+              "pokemon": "kangaskhan",
+              "prediction": "snorlax",
+              "correct": false
+            },
+            {
+              "pokemon": "koffing",
+              "prediction": "koffing",
+              "correct": true
+            },
+            {
+              "pokemon": "krabby",
+              "prediction": "krabby",
+              "correct": true
+            },
+            {
+              "pokemon": "magikarp",
+              "prediction": "psyduck",
+              "correct": false
+            },
+            {
+              "pokemon": "magmar",
+              "prediction": "feraligatr",
+              "correct": false
+            },
+            {
+              "pokemon": "magnemite",
+              "prediction": "magnemite",
+              "correct": true
+            },
+            {
+              "pokemon": "metapod",
+              "prediction": "lunatone",
+              "correct": false
+            },
+            {
+              "pokemon": "moltres",
+              "prediction": "articuno",
+              "correct": false
+            },
+            {
+              "pokemon": "mr",
+              "prediction": "mr. mime",
+              "correct": false
+            },
+            {
+              "pokemon": "nidoran\u2642",
+              "prediction": "nidoqueen",
+              "correct": false
+            },
+            {
+              "pokemon": "onix",
+              "prediction": "onix",
+              "correct": true
+            },
+            {
+              "pokemon": "paras",
+              "prediction": "smoochum",
+              "correct": false
+            },
+            {
+              "pokemon": "pidgeotto",
+              "prediction": "piplup",
+              "correct": false
+            },
+            {
+              "pokemon": "pikachu",
+              "prediction": "pikachu",
+              "correct": true
+            },
+            {
+              "pokemon": "ponyta",
+              "prediction": "rapidash",
+              "correct": false
+            },
+            {
+              "pokemon": "primeape",
+              "prediction": "arcanine",
+              "correct": false
+            },
+            {
+              "pokemon": "psyduck",
+              "prediction": "psyduck",
+              "correct": true
+            },
+            {
+              "pokemon": "raichu",
+              "prediction": "pikachu",
+              "correct": false
+            },
+            {
+              "pokemon": "raticate",
+              "prediction": "rattata",
+              "correct": false
+            },
+            {
+              "pokemon": "sandshrew",
+              "prediction": "squirtle",
+              "correct": false
+            },
+            {
+              "pokemon": "scyther",
+              "prediction": "garchomp",
+              "correct": false
+            },
+            {
+              "pokemon": "seaking",
+              "prediction": "muk",
+              "correct": false
+            },
+            {
+              "pokemon": "seel",
+              "prediction": "marill",
+              "correct": false
+            },
+            {
+              "pokemon": "slowbro",
+              "prediction": "slowbro",
+              "correct": true
+            },
+            {
+              "pokemon": "snorlax",
+              "prediction": "snorlax",
+              "correct": true
+            },
+            {
+              "pokemon": "squirtle",
+              "prediction": "squirtle",
+              "correct": true
+            },
+            {
+              "pokemon": "venonat",
+              "prediction": "venonat",
+              "correct": true
+            },
+            {
+              "pokemon": "vileplume",
+              "prediction": "jumpluff",
+              "correct": false
+            },
+            {
+              "pokemon": "vulpix",
+              "prediction": "vulpix",
+              "correct": true
+            },
+            {
+              "pokemon": "wartortle",
+              "prediction": "vulpix",
+              "correct": false
+            }
+          ]
+        },
+        "gpt-5-2025-08-07": {
+          "correct": 25,
+          "total": 60,
+          "responses": [
+            {
+              "pokemon": "abra",
+              "prediction": "growlithe",
+              "correct": false
+            },
+            {
+              "pokemon": "aerodactyl",
+              "prediction": "dragonite",
+              "correct": false
+            },
+            {
+              "pokemon": "alakazam",
+              "prediction": "",
+              "correct": false
+            },
+            {
+              "pokemon": "arbok",
+              "prediction": "squirtle",
+              "correct": false
+            },
+            {
+              "pokemon": "arcanine",
+              "prediction": "growlithe",
+              "correct": false
+            },
+            {
+              "pokemon": "bellsprout",
+              "prediction": "bellsprout",
+              "correct": true
+            },
+            {
+              "pokemon": "bulbasaur",
+              "prediction": "bulbasaur",
+              "correct": true
+            },
+            {
+              "pokemon": "butterfree",
+              "prediction": "butterfree",
+              "correct": true
+            },
+            {
+              "pokemon": "caterpie",
+              "prediction": "sliggoo",
+              "correct": false
+            },
+            {
+              "pokemon": "charmander",
+              "prediction": "charmander",
+              "correct": true
+            },
+            {
+              "pokemon": "clefairy",
+              "prediction": "jigglypuff",
+              "correct": false
+            },
+            {
+              "pokemon": "cloyster",
+              "prediction": "gengar",
+              "correct": false
+            },
+            {
+              "pokemon": "cubone",
+              "prediction": "bibarel",
+              "correct": false
+            },
+            {
+              "pokemon": "diglett",
+              "prediction": "grimer",
+              "correct": false
+            },
+            {
+              "pokemon": "ditto",
+              "prediction": "ditto",
+              "correct": true
+            },
+            {
+              "pokemon": "eevee",
+              "prediction": "eevee",
+              "correct": true
+            },
+            {
+              "pokemon": "exeggcute",
+              "prediction": "vileplume",
+              "correct": false
+            },
+            {
+              "pokemon": "farfetchd",
+              "prediction": "torchic",
+              "correct": false
+            },
+            {
+              "pokemon": "fearow",
+              "prediction": "pidgeot",
+              "correct": false
+            },
+            {
+              "pokemon": "gastly",
+              "prediction": "grimer",
+              "correct": false
+            },
+            {
+              "pokemon": "gengar",
+              "prediction": "sandslash",
+              "correct": false
+            },
+            {
+              "pokemon": "geodude",
+              "prediction": "krabby",
+              "correct": false
+            },
+            {
+              "pokemon": "gloom",
+              "prediction": "tangrowth",
+              "correct": false
+            },
+            {
+              "pokemon": "growlithe",
+              "prediction": "growlithe",
+              "correct": true
+            },
+            {
+              "pokemon": "haunter",
+              "prediction": "sandslash",
+              "correct": false
+            },
+            {
+              "pokemon": "hitmonchan",
+              "prediction": "hitmonchan",
+              "correct": true
+            },
+            {
+              "pokemon": "horsea",
+              "prediction": "horsea",
+              "correct": true
+            },
+            {
+              "pokemon": "ivysaur",
+              "prediction": "golbat",
+              "correct": false
+            },
+            {
+              "pokemon": "jigglypuff",
+              "prediction": "jigglypuff",
+              "correct": true
+            },
+            {
+              "pokemon": "jynx",
+              "prediction": "jynx",
+              "correct": true
+            },
+            {
+              "pokemon": "kabutops",
+              "prediction": "kabutops",
+              "correct": true
+            },
+            {
+              "pokemon": "kangaskhan",
+              "prediction": "seel",
+              "correct": false
+            },
+            {
+              "pokemon": "koffing",
+              "prediction": "gastly",
+              "correct": false
+            },
+            {
+              "pokemon": "krabby",
+              "prediction": "krabby",
+              "correct": true
+            },
+            {
+              "pokemon": "magikarp",
+              "prediction": "mudkip",
+              "correct": false
+            },
+            {
+              "pokemon": "magmar",
+              "prediction": "feraligatr",
+              "correct": false
+            },
+            {
+              "pokemon": "magnemite",
+              "prediction": "magnemite",
+              "correct": true
+            },
+            {
+              "pokemon": "metapod",
+              "prediction": "kabutops",
+              "correct": false
+            },
+            {
+              "pokemon": "moltres",
+              "prediction": "fearow",
+              "correct": false
+            },
+            {
+              "pokemon": "mr",
+              "prediction": "mr. mime",
+              "correct": false
+            },
+            {
+              "pokemon": "nidoran\u2642",
+              "prediction": "venonat",
+              "correct": false
+            },
+            {
+              "pokemon": "onix",
+              "prediction": "onix",
+              "correct": true
+            },
+            {
+              "pokemon": "paras",
+              "prediction": "paras",
+              "correct": true
+            },
+            {
+              "pokemon": "pidgeotto",
+              "prediction": "spearow",
+              "correct": false
+            },
+            {
+              "pokemon": "pikachu",
+              "prediction": "pikachu",
+              "correct": true
+            },
+            {
+              "pokemon": "ponyta",
+              "prediction": "vulpix",
+              "correct": false
+            },
+            {
+              "pokemon": "primeape",
+              "prediction": "kingler",
+              "correct": false
+            },
+            {
+              "pokemon": "psyduck",
+              "prediction": "psyduck",
+              "correct": true
+            },
+            {
+              "pokemon": "raichu",
+              "prediction": "raichu",
+              "correct": true
+            },
+            {
+              "pokemon": "raticate",
+              "prediction": "raticate",
+              "correct": true
+            },
+            {
+              "pokemon": "sandshrew",
+              "prediction": "sandshrew",
+              "correct": true
+            },
+            {
+              "pokemon": "scyther",
+              "prediction": "armaldo",
+              "correct": false
+            },
+            {
+              "pokemon": "seaking",
+              "prediction": "jigglypuff",
+              "correct": false
+            },
+            {
+              "pokemon": "seel",
+              "prediction": "ditto",
+              "correct": false
+            },
+            {
+              "pokemon": "slowbro",
+              "prediction": "slowbro",
+              "correct": true
+            },
+            {
+              "pokemon": "snorlax",
+              "prediction": "snorlax",
+              "correct": true
+            },
+            {
+              "pokemon": "squirtle",
+              "prediction": "quagsire",
+              "correct": false
+            },
+            {
+              "pokemon": "venonat",
+              "prediction": "venonat",
+              "correct": true
+            },
+            {
+              "pokemon": "vileplume",
+              "prediction": "bonsly",
+              "correct": false
+            },
+            {
+              "pokemon": "vulpix",
+              "prediction": "vulpix",
+              "correct": true
+            },
+            {
+              "pokemon": "wartortle",
+              "prediction": "clefairy",
+              "correct": false
+            }
+          ]
+        }
+      },
+      "anthropic": {
+        "claude-opus-4-1-20250805": {
+          "correct": 21,
+          "total": 61,
+          "responses": [
+            {
+              "pokemon": "abra",
+              "prediction": "golduck",
+              "correct": false
+            },
+            {
+              "pokemon": "aerodactyl",
+              "prediction": "charizard",
+              "correct": false
+            },
+            {
+              "pokemon": "alakazam",
+              "prediction": "alakazam",
+              "correct": true
+            },
+            {
+              "pokemon": "arbok",
+              "prediction": "wynaut",
+              "correct": false
+            },
+            {
+              "pokemon": "arcanine",
+              "prediction": "ivysaur",
+              "correct": false
+            },
+            {
+              "pokemon": "bellsprout",
+              "prediction": "bellsprout",
+              "correct": true
+            },
+            {
+              "pokemon": "bulbasaur",
+              "prediction": "ivysaur",
+              "correct": false
+            },
+            {
+              "pokemon": "butterfree",
+              "prediction": "butterfree",
+              "correct": true
+            },
+            {
+              "pokemon": "caterpie",
+              "prediction": "squirtle",
+              "correct": false
+            },
+            {
+              "pokemon": "charmander",
+              "prediction": "charmander",
+              "correct": true
+            },
+            {
+              "pokemon": "clefairy",
+              "prediction": "jigglypuff",
+              "correct": false
+            },
+            {
+              "pokemon": "cloyster",
+              "prediction": "cloyster",
+              "correct": true
+            },
+            {
+              "pokemon": "cubone",
+              "prediction": "cubone",
+              "correct": true
+            },
+            {
+              "pokemon": "diglett",
+              "prediction": "electrode",
+              "correct": false
+            },
+            {
+              "pokemon": "ditto",
+              "prediction": "ditto",
+              "correct": true
+            },
+            {
+              "pokemon": "eevee",
+              "prediction": "wartortle",
+              "correct": false
+            },
+            {
+              "pokemon": "exeggcute",
+              "prediction": "tangela",
+              "correct": false
+            },
+            {
+              "pokemon": "farfetchd",
+              "prediction": "pidgey",
+              "correct": false
+            },
+            {
+              "pokemon": "fearow",
+              "prediction": "articuno",
+              "correct": false
+            },
+            {
+              "pokemon": "gastly",
+              "prediction": "qwilfish",
+              "correct": false
+            },
+            {
+              "pokemon": "gengar",
+              "prediction": "alakazam",
+              "correct": false
+            },
+            {
+              "pokemon": "geodude",
+              "prediction": "geodude",
+              "correct": true
+            },
+            {
+              "pokemon": "gloom",
+              "prediction": "tangela",
+              "correct": false
+            },
+            {
+              "pokemon": "growlithe",
+              "prediction": "squirtle",
+              "correct": false
+            },
+            {
+              "pokemon": "haunter",
+              "prediction": "haunter",
+              "correct": true
+            },
+            {
+              "pokemon": "hitmonchan",
+              "prediction": "golduck",
+              "correct": false
+            },
+            {
+              "pokemon": "horsea",
+              "prediction": "goldeen",
+              "correct": false
+            },
+            {
+              "pokemon": "ivysaur",
+              "prediction": "ivysaur",
+              "correct": true
+            },
+            {
+              "pokemon": "jigglypuff",
+              "prediction": "jigglypuff",
+              "correct": true
+            },
+            {
+              "pokemon": "jynx",
+              "prediction": "snorlax",
+              "correct": false
+            },
+            {
+              "pokemon": "kabutops",
+              "prediction": "alakazam",
+              "correct": false
+            },
+            {
+              "pokemon": "kangaskhan",
+              "prediction": "alakazam",
+              "correct": false
+            },
+            {
+              "pokemon": "koffing",
+              "prediction": "koffing",
+              "correct": true
+            },
+            {
+              "pokemon": "krabby",
+              "prediction": "krabby",
+              "correct": true
+            },
+            {
+              "pokemon": "magikarp",
+              "prediction": "golduck",
+              "correct": false
+            },
+            {
+              "pokemon": "magmar",
+              "prediction": "feraligatr",
+              "correct": false
+            },
+            {
+              "pokemon": "magnemite",
+              "prediction": "magneton",
+              "correct": false
+            },
+            {
+              "pokemon": "metapod",
+              "prediction": "wynaut",
+              "correct": false
+            },
+            {
+              "pokemon": "moltres",
+              "prediction": "articuno",
+              "correct": false
+            },
+            {
+              "pokemon": "mr",
+              "prediction": "alakazam",
+              "correct": false
+            },
+            {
+              "pokemon": "nidoran\u2642",
+              "prediction": "ivysaur",
+              "correct": false
+            },
+            {
+              "pokemon": "onix",
+              "prediction": "gyarados",
+              "correct": false
+            },
+            {
+              "pokemon": "paras",
+              "prediction": "gorebyss",
+              "correct": false
+            },
+            {
+              "pokemon": "pidgeotto",
+              "prediction": "pidgey",
+              "correct": false
+            },
+            {
+              "pokemon": "pikachu",
+              "prediction": "pikachu",
+              "correct": true
+            },
+            {
+              "pokemon": "ponyta",
+              "prediction": "ponyta",
+              "correct": true
+            },
+            {
+              "pokemon": "primeape",
+              "prediction": "mankey",
+              "correct": false
+            },
+            {
+              "pokemon": "psyduck",
+              "prediction": "psyduck",
+              "correct": true
+            },
+            {
+              "pokemon": "raichu",
+              "prediction": "raichu",
+              "correct": true
+            },
+            {
+              "pokemon": "raticate",
+              "prediction": "raticate",
+              "correct": true
+            },
+            {
+              "pokemon": "sandshrew",
+              "prediction": "wartortle",
+              "correct": false
+            },
+            {
+              "pokemon": "scyther",
+              "prediction": "charizard",
+              "correct": false
+            },
+            {
+              "pokemon": "seaking",
+              "prediction": "goldeen",
+              "correct": false
+            },
+            {
+              "pokemon": "seel",
+              "prediction": "wynaut",
+              "correct": false
+            },
+            {
+              "pokemon": "slowbro",
+              "prediction": "wartortle",
+              "correct": false
+            },
+            {
+              "pokemon": "snorlax",
+              "prediction": "snorlax",
+              "correct": true
+            },
+            {
+              "pokemon": "squirtle",
+              "prediction": "squirtle",
+              "correct": true
+            },
+            {
+              "pokemon": "venonat",
+              "prediction": "venonat",
+              "correct": true
+            },
+            {
+              "pokemon": "vileplume",
+              "prediction": "jigglypuff",
+              "correct": false
+            },
+            {
+              "pokemon": "vulpix",
+              "prediction": "goldeen",
+              "correct": false
+            },
+            {
+              "pokemon": "wartortle",
+              "prediction": "pikachu",
+              "correct": false
+            }
+          ]
+        },
+        "claude-opus-4-20250514": {
+          "correct": 18,
+          "total": 61,
+          "responses": [
+            {
+              "pokemon": "abra",
+              "prediction": "sandshrew",
+              "correct": false
+            },
+            {
+              "pokemon": "aerodactyl",
+              "prediction": "charizard",
+              "correct": false
+            },
+            {
+              "pokemon": "alakazam",
+              "prediction": "alakazam",
+              "correct": true
+            },
+            {
+              "pokemon": "arbok",
+              "prediction": "wynaut",
+              "correct": false
+            },
+            {
+              "pokemon": "arcanine",
+              "prediction": "ivysaur",
+              "correct": false
+            },
+            {
+              "pokemon": "bellsprout",
+              "prediction": "bellossom",
+              "correct": false
+            },
+            {
+              "pokemon": "bulbasaur",
+              "prediction": "bulbasaur",
+              "correct": true
+            },
+            {
+              "pokemon": "butterfree",
+              "prediction": "butterfree",
+              "correct": true
+            },
+            {
+              "pokemon": "caterpie",
+              "prediction": "squirtle",
+              "correct": false
+            },
+            {
+              "pokemon": "charmander",
+              "prediction": "charmander",
+              "correct": true
+            },
+            {
+              "pokemon": "clefairy",
+              "prediction": "pikachu",
+              "correct": false
+            },
+            {
+              "pokemon": "cloyster",
+              "prediction": "cloyster",
+              "correct": true
+            },
+            {
+              "pokemon": "cubone",
+              "prediction": "cubone",
+              "correct": true
+            },
+            {
+              "pokemon": "diglett",
+              "prediction": "jigglypuff",
+              "correct": false
+            },
+            {
+              "pokemon": "ditto",
+              "prediction": "ditto",
+              "correct": true
+            },
+            {
+              "pokemon": "eevee",
+              "prediction": "pikachu",
+              "correct": false
+            },
+            {
+              "pokemon": "exeggcute",
+              "prediction": "poliwhirl",
+              "correct": false
+            },
+            {
+              "pokemon": "farfetchd",
+              "prediction": "pidgey",
+              "correct": false
+            },
+            {
+              "pokemon": "fearow",
+              "prediction": "goldeen",
+              "correct": false
+            },
+            {
+              "pokemon": "gastly",
+              "prediction": "grimer",
+              "correct": false
+            },
+            {
+              "pokemon": "gengar",
+              "prediction": "alakazam",
+              "correct": false
+            },
+            {
+              "pokemon": "geodude",
+              "prediction": "geodude",
+              "correct": true
+            },
+            {
+              "pokemon": "gloom",
+              "prediction": "tangela",
+              "correct": false
+            },
+            {
+              "pokemon": "growlithe",
+              "prediction": "kecleon",
+              "correct": false
+            },
+            {
+              "pokemon": "haunter",
+              "prediction": "haunter",
+              "correct": true
+            },
+            {
+              "pokemon": "hitmonchan",
+              "prediction": "golduck",
+              "correct": false
+            },
+            {
+              "pokemon": "horsea",
+              "prediction": "goldeen",
+              "correct": false
+            },
+            {
+              "pokemon": "ivysaur",
+              "prediction": "ivysaur",
+              "correct": true
+            },
+            {
+              "pokemon": "jigglypuff",
+              "prediction": "jigglypuff",
+              "correct": true
+            },
+            {
+              "pokemon": "jynx",
+              "prediction": "snorlax",
+              "correct": false
+            },
+            {
+              "pokemon": "kabutops",
+              "prediction": "alakazam",
+              "correct": false
+            },
+            {
+              "pokemon": "kangaskhan",
+              "prediction": "wartortle",
+              "correct": false
+            },
+            {
+              "pokemon": "koffing",
+              "prediction": "weezing",
+              "correct": false
+            },
+            {
+              "pokemon": "krabby",
+              "prediction": "corphish",
+              "correct": false
+            },
+            {
+              "pokemon": "magikarp",
+              "prediction": "golduck",
+              "correct": false
+            },
+            {
+              "pokemon": "magmar",
+              "prediction": "feraligatr",
+              "correct": false
+            },
+            {
+              "pokemon": "magnemite",
+              "prediction": "gligar",
+              "correct": false
+            },
+            {
+              "pokemon": "metapod",
+              "prediction": "wynaut",
+              "correct": false
+            },
+            {
+              "pokemon": "moltres",
+              "prediction": "articuno",
+              "correct": false
+            },
+            {
+              "pokemon": "mr",
+              "prediction": "blastoise",
+              "correct": false
+            },
+            {
+              "pokemon": "nidoran\u2642",
+              "prediction": "ivysaur",
+              "correct": false
+            },
+            {
+              "pokemon": "onix",
+              "prediction": "gyarados",
+              "correct": false
+            },
+            {
+              "pokemon": "paras",
+              "prediction": "marill",
+              "correct": false
+            },
+            {
+              "pokemon": "pidgeotto",
+              "prediction": "pidgey",
+              "correct": false
+            },
+            {
+              "pokemon": "pikachu",
+              "prediction": "pikachu",
+              "correct": true
+            },
+            {
+              "pokemon": "ponyta",
+              "prediction": "ponyta",
+              "correct": true
+            },
+            {
+              "pokemon": "primeape",
+              "prediction": "mankey",
+              "correct": false
+            },
+            {
+              "pokemon": "psyduck",
+              "prediction": "psyduck",
+              "correct": true
+            },
+            {
+              "pokemon": "raichu",
+              "prediction": "raichu",
+              "correct": true
+            },
+            {
+              "pokemon": "raticate",
+              "prediction": "raticate",
+              "correct": true
+            },
+            {
+              "pokemon": "sandshrew",
+              "prediction": "wartortle",
+              "correct": false
+            },
+            {
+              "pokemon": "scyther",
+              "prediction": "charizard",
+              "correct": false
+            },
+            {
+              "pokemon": "seaking",
+              "prediction": "ditto",
+              "correct": false
+            },
+            {
+              "pokemon": "seel",
+              "prediction": "wynaut",
+              "correct": false
+            },
+            {
+              "pokemon": "slowbro",
+              "prediction": "wartortle",
+              "correct": false
+            },
+            {
+              "pokemon": "snorlax",
+              "prediction": "snorlax",
+              "correct": true
+            },
+            {
+              "pokemon": "squirtle",
+              "prediction": "wartortle",
+              "correct": false
+            },
+            {
+              "pokemon": "venonat",
+              "prediction": "venonat",
+              "correct": true
+            },
+            {
+              "pokemon": "vileplume",
+              "prediction": "jigglypuff",
+              "correct": false
+            },
+            {
+              "pokemon": "vulpix",
+              "prediction": "blastoise",
+              "correct": false
+            },
+            {
+              "pokemon": "wartortle",
+              "prediction": "pikachu",
+              "correct": false
+            }
+          ]
+        },
+        "claude-sonnet-4-20250514": {
+          "correct": 12,
+          "total": 61,
+          "responses": [
+            {
+              "pokemon": "abra",
+              "prediction": "blastoise",
+              "correct": false
+            },
+            {
+              "pokemon": "aerodactyl",
+              "prediction": "crobat",
+              "correct": false
+            },
+            {
+              "pokemon": "alakazam",
+              "prediction": "alakazam",
+              "correct": true
+            },
+            {
+              "pokemon": "arbok",
+              "prediction": "squirtle",
+              "correct": false
+            },
+            {
+              "pokemon": "arcanine",
+              "prediction": "blastoise",
+              "correct": false
+            },
+            {
+              "pokemon": "bellsprout",
+              "prediction": "lugia",
+              "correct": false
+            },
+            {
+              "pokemon": "bulbasaur",
+              "prediction": "snorlax",
+              "correct": false
+            },
+            {
+              "pokemon": "butterfree",
+              "prediction": "butterfree",
+              "correct": true
+            },
+            {
+              "pokemon": "caterpie",
+              "prediction": "squirtle",
+              "correct": false
+            },
+            {
+              "pokemon": "charmander",
+              "prediction": "charmander",
+              "correct": true
+            },
+            {
+              "pokemon": "clefairy",
+              "prediction": "jigglypuff",
+              "correct": false
+            },
+            {
+              "pokemon": "cloyster",
+              "prediction": "nidoqueen",
+              "correct": false
+            },
+            {
+              "pokemon": "cubone",
+              "prediction": "pikachu",
+              "correct": false
+            },
+            {
+              "pokemon": "diglett",
+              "prediction": "snorlax",
+              "correct": false
+            },
+            {
+              "pokemon": "ditto",
+              "prediction": "ditto",
+              "correct": true
+            },
+            {
+              "pokemon": "eevee",
+              "prediction": "pikachu",
+              "correct": false
+            },
+            {
+              "pokemon": "exeggcute",
+              "prediction": "gloom",
+              "correct": false
+            },
+            {
+              "pokemon": "farfetchd",
+              "prediction": "psyduck",
+              "correct": false
+            },
+            {
+              "pokemon": "fearow",
+              "prediction": "crobat",
+              "correct": false
+            },
+            {
+              "pokemon": "gastly",
+              "prediction": "jigglypuff",
+              "correct": false
+            },
+            {
+              "pokemon": "gengar",
+              "prediction": "gengar",
+              "correct": true
+            },
+            {
+              "pokemon": "geodude",
+              "prediction": "squirtle",
+              "correct": false
+            },
+            {
+              "pokemon": "gloom",
+              "prediction": "jigglypuff",
+              "correct": false
+            },
+            {
+              "pokemon": "growlithe",
+              "prediction": "growlithe",
+              "correct": true
+            },
+            {
+              "pokemon": "haunter",
+              "prediction": "crobat",
+              "correct": false
+            },
+            {
+              "pokemon": "hitmonchan",
+              "prediction": "alakazam",
+              "correct": false
+            },
+            {
+              "pokemon": "horsea",
+              "prediction": "nidorino",
+              "correct": false
+            },
+            {
+              "pokemon": "ivysaur",
+              "prediction": "snorlax",
+              "correct": false
+            },
+            {
+              "pokemon": "jigglypuff",
+              "prediction": "jigglypuff",
+              "correct": true
+            },
+            {
+              "pokemon": "jynx",
+              "prediction": "psyduck",
+              "correct": false
+            },
+            {
+              "pokemon": "kabutops",
+              "prediction": "alakazam",
+              "correct": false
+            },
+            {
+              "pokemon": "kangaskhan",
+              "prediction": "clefairy",
+              "correct": false
+            },
+            {
+              "pokemon": "koffing",
+              "prediction": "magnezone",
+              "correct": false
+            },
+            {
+              "pokemon": "krabby",
+              "prediction": "kingler",
+              "correct": false
+            },
+            {
+              "pokemon": "magikarp",
+              "prediction": "psyduck",
+              "correct": false
+            },
+            {
+              "pokemon": "magmar",
+              "prediction": "nidoking",
+              "correct": false
+            },
+            {
+              "pokemon": "magnemite",
+              "prediction": "magnezone",
+              "correct": false
+            },
+            {
+              "pokemon": "metapod",
+              "prediction": "crobat",
+              "correct": false
+            },
+            {
+              "pokemon": "moltres",
+              "prediction": "articuno",
+              "correct": false
+            },
+            {
+              "pokemon": "mr",
+              "prediction": "blastoise",
+              "correct": false
+            },
+            {
+              "pokemon": "nidoran\u2642",
+              "prediction": "pikachu",
+              "correct": false
+            },
+            {
+              "pokemon": "onix",
+              "prediction": "mew",
+              "correct": false
+            },
+            {
+              "pokemon": "paras",
+              "prediction": "azurill",
+              "correct": false
+            },
+            {
+              "pokemon": "pidgeotto",
+              "prediction": "pidgey",
+              "correct": false
+            },
+            {
+              "pokemon": "pikachu",
+              "prediction": "pikachu",
+              "correct": true
+            },
+            {
+              "pokemon": "ponyta",
+              "prediction": "blastoise",
+              "correct": false
+            },
+            {
+              "pokemon": "primeape",
+              "prediction": "growlithe",
+              "correct": false
+            },
+            {
+              "pokemon": "psyduck",
+              "prediction": "psyduck",
+              "correct": true
+            },
+            {
+              "pokemon": "raichu",
+              "prediction": "wartortle",
+              "correct": false
+            },
+            {
+              "pokemon": "raticate",
+              "prediction": "raichu",
+              "correct": false
+            },
+            {
+              "pokemon": "sandshrew",
+              "prediction": "wartortle",
+              "correct": false
+            },
+            {
+              "pokemon": "scyther",
+              "prediction": "noctowl",
+              "correct": false
+            },
+            {
+              "pokemon": "seaking",
+              "prediction": "alakazam",
+              "correct": false
+            },
+            {
+              "pokemon": "seel",
+              "prediction": "azurill",
+              "correct": false
+            },
+            {
+              "pokemon": "slowbro",
+              "prediction": "blastoise",
+              "correct": false
+            },
+            {
+              "pokemon": "snorlax",
+              "prediction": "snorlax",
+              "correct": true
+            },
+            {
+              "pokemon": "squirtle",
+              "prediction": "squirtle",
+              "correct": true
+            },
+            {
+              "pokemon": "venonat",
+              "prediction": "venonat",
+              "correct": true
+            },
+            {
+              "pokemon": "vileplume",
+              "prediction": "bonsly",
+              "correct": false
+            },
+            {
+              "pokemon": "vulpix",
+              "prediction": "pikachu",
+              "correct": false
+            },
+            {
+              "pokemon": "wartortle",
+              "prediction": "clefairy",
+              "correct": false
+            }
+          ]
+        },
+        "claude-3-7-sonnet-20250219": {
+          "correct": 17,
+          "total": 61,
+          "responses": [
+            {
+              "pokemon": "abra",
+              "prediction": "jigglypuff",
+              "correct": false
+            },
+            {
+              "pokemon": "aerodactyl",
+              "prediction": "aerodactyl",
+              "correct": true
+            },
+            {
+              "pokemon": "alakazam",
+              "prediction": "alakazam",
+              "correct": true
+            },
+            {
+              "pokemon": "arbok",
+              "prediction": "wynaut",
+              "correct": false
+            },
+            {
+              "pokemon": "arcanine",
+              "prediction": "bulbasaur",
+              "correct": false
+            },
+            {
+              "pokemon": "bellsprout",
+              "prediction": "oddish",
+              "correct": false
+            },
+            {
+              "pokemon": "bulbasaur",
+              "prediction": "jigglypuff",
+              "correct": false
+            },
+            {
+              "pokemon": "butterfree",
+              "prediction": "butterfree",
+              "correct": true
+            },
+            {
+              "pokemon": "caterpie",
+              "prediction": "squirtle",
+              "correct": false
+            },
+            {
+              "pokemon": "charmander",
+              "prediction": "charmander",
+              "correct": true
+            },
+            {
+              "pokemon": "clefairy",
+              "prediction": "jigglypuff",
+              "correct": false
+            },
+            {
+              "pokemon": "cloyster",
+              "prediction": "jigglypuff",
+              "correct": false
+            },
+            {
+              "pokemon": "cubone",
+              "prediction": "nidorina",
+              "correct": false
+            },
+            {
+              "pokemon": "diglett",
+              "prediction": "diglett",
+              "correct": true
+            },
+            {
+              "pokemon": "ditto",
+              "prediction": "ditto",
+              "correct": true
+            },
+            {
+              "pokemon": "eevee",
+              "prediction": "pikachu",
+              "correct": false
+            },
+            {
+              "pokemon": "exeggcute",
+              "prediction": "i see this is the \"who's that pok\u00e9mon?\" segment from the pok\u00e9mon anime, showing the classic blue silhouette with the yellow question mark and the pok\u00e9mon logo, but no actual pok\u00e9mon silhouette is visible to guess. this appears to be just the template or intro screen for the segment rather than a specific pok\u00e9mon to identify.",
+              "correct": false
+            },
+            {
+              "pokemon": "farfetchd",
+              "prediction": "psyduck",
+              "correct": false
+            },
+            {
+              "pokemon": "fearow",
+              "prediction": "pidgey",
+              "correct": false
+            },
+            {
+              "pokemon": "gastly",
+              "prediction": "i can see this is a \"who's that pok\u00e9mon?\" screen from the pok\u00e9mon anime, showing a blue silhouette with a question mark, but this isn't showing a specific pok\u00e9mon clearly enough for me to identify. this appears to be the template or title card used for the segment rather than an actual pok\u00e9mon silhouette challenge.",
+              "correct": false
+            },
+            {
+              "pokemon": "gengar",
+              "prediction": "gengar",
+              "correct": true
+            },
+            {
+              "pokemon": "geodude",
+              "prediction": "machop",
+              "correct": false
+            },
+            {
+              "pokemon": "gloom",
+              "prediction": "jigglypuff",
+              "correct": false
+            },
+            {
+              "pokemon": "growlithe",
+              "prediction": "jigglypuff",
+              "correct": false
+            },
+            {
+              "pokemon": "haunter",
+              "prediction": "gengar",
+              "correct": false
+            },
+            {
+              "pokemon": "hitmonchan",
+              "prediction": "golduck",
+              "correct": false
+            },
+            {
+              "pokemon": "horsea",
+              "prediction": "horsea",
+              "correct": true
+            },
+            {
+              "pokemon": "ivysaur",
+              "prediction": "jigglypuff",
+              "correct": false
+            },
+            {
+              "pokemon": "jigglypuff",
+              "prediction": "jigglypuff",
+              "correct": true
+            },
+            {
+              "pokemon": "jynx",
+              "prediction": "jigglypuff",
+              "correct": false
+            },
+            {
+              "pokemon": "kabutops",
+              "prediction": "kabutops",
+              "correct": true
+            },
+            {
+              "pokemon": "kangaskhan",
+              "prediction": "rhydon",
+              "correct": false
+            },
+            {
+              "pokemon": "koffing",
+              "prediction": "jigglypuff",
+              "correct": false
+            },
+            {
+              "pokemon": "krabby",
+              "prediction": "krabby",
+              "correct": true
+            },
+            {
+              "pokemon": "magikarp",
+              "prediction": "goldeen",
+              "correct": false
+            },
+            {
+              "pokemon": "magmar",
+              "prediction": "tyranitar",
+              "correct": false
+            },
+            {
+              "pokemon": "magnemite",
+              "prediction": "voltorb",
+              "correct": false
+            },
+            {
+              "pokemon": "metapod",
+              "prediction": "lapras",
+              "correct": false
+            },
+            {
+              "pokemon": "moltres",
+              "prediction": "articuno",
+              "correct": false
+            },
+            {
+              "pokemon": "mr",
+              "prediction": "jigglypuff",
+              "correct": false
+            },
+            {
+              "pokemon": "nidoran\u2642",
+              "prediction": "gengar",
+              "correct": false
+            },
+            {
+              "pokemon": "onix",
+              "prediction": "onix",
+              "correct": true
+            },
+            {
+              "pokemon": "paras",
+              "prediction": "jigglypuff",
+              "correct": false
+            },
+            {
+              "pokemon": "pidgeotto",
+              "prediction": "pidgey",
+              "correct": false
+            },
+            {
+              "pokemon": "pikachu",
+              "prediction": "pikachu",
+              "correct": true
+            },
+            {
+              "pokemon": "ponyta",
+              "prediction": "suicune",
+              "correct": false
+            },
+            {
+              "pokemon": "primeape",
+              "prediction": "jigglypuff",
+              "correct": false
+            },
+            {
+              "pokemon": "psyduck",
+              "prediction": "jigglypuff",
+              "correct": false
+            },
+            {
+              "pokemon": "raichu",
+              "prediction": "raichu",
+              "correct": true
+            },
+            {
+              "pokemon": "raticate",
+              "prediction": "jigglypuff",
+              "correct": false
+            },
+            {
+              "pokemon": "sandshrew",
+              "prediction": "marill",
+              "correct": false
+            },
+            {
+              "pokemon": "scyther",
+              "prediction": "scyther",
+              "correct": true
+            },
+            {
+              "pokemon": "seaking",
+              "prediction": "jigglypuff",
+              "correct": false
+            },
+            {
+              "pokemon": "seel",
+              "prediction": "wynaut",
+              "correct": false
+            },
+            {
+              "pokemon": "slowbro",
+              "prediction": "jigglypuff",
+              "correct": false
+            },
+            {
+              "pokemon": "snorlax",
+              "prediction": "jigglypuff",
+              "correct": false
+            },
+            {
+              "pokemon": "squirtle",
+              "prediction": "squirtle",
+              "correct": true
+            },
+            {
+              "pokemon": "venonat",
+              "prediction": "venonat",
+              "correct": true
+            },
+            {
+              "pokemon": "vileplume",
+              "prediction": "mankey",
+              "correct": false
+            },
+            {
+              "pokemon": "vulpix",
+              "prediction": "jigglypuff",
+              "correct": false
+            },
+            {
+              "pokemon": "wartortle",
+              "prediction": "clefairy",
+              "correct": false
+            }
+          ]
+        }
+      },
+      "google": {
+        "gemini-2.5-pro-preview-05-06": {
+          "correct": 25,
+          "total": 61,
+          "responses": [
+            {
+              "pokemon": "abra",
+              "prediction": "poochyena",
+              "correct": false
+            },
+            {
+              "pokemon": "aerodactyl",
+              "prediction": "charizard",
+              "correct": false
+            },
+            {
+              "pokemon": "alakazam",
+              "prediction": "nidorino",
+              "correct": false
+            },
+            {
+              "pokemon": "arbok",
+              "prediction": "poliwag",
+              "correct": false
+            },
+            {
+              "pokemon": "arcanine",
+              "prediction": "arcanine",
+              "correct": true
+            },
+            {
+              "pokemon": "bellsprout",
+              "prediction": "bellsprout",
+              "correct": true
+            },
+            {
+              "pokemon": "bulbasaur",
+              "prediction": "bulbasaur",
+              "correct": true
+            },
+            {
+              "pokemon": "butterfree",
+              "prediction": "butterfree",
+              "correct": true
+            },
+            {
+              "pokemon": "caterpie",
+              "prediction": "poliwag",
+              "correct": false
+            },
+            {
+              "pokemon": "charmander",
+              "prediction": "charmander",
+              "correct": true
+            },
+            {
+              "pokemon": "clefairy",
+              "prediction": "jigglypuff",
+              "correct": false
+            },
+            {
+              "pokemon": "cloyster",
+              "prediction": "nidoran\u2642",
+              "correct": false
+            },
+            {
+              "pokemon": "cubone",
+              "prediction": "marowak",
+              "correct": false
+            },
+            {
+              "pokemon": "diglett",
+              "prediction": "wobbuffet",
+              "correct": false
+            },
+            {
+              "pokemon": "ditto",
+              "prediction": "ditto",
+              "correct": true
+            },
+            {
+              "pokemon": "eevee",
+              "prediction": "eevee",
+              "correct": true
+            },
+            {
+              "pokemon": "exeggcute",
+              "prediction": "weezing",
+              "correct": false
+            },
+            {
+              "pokemon": "farfetchd",
+              "prediction": "magby",
+              "correct": false
+            },
+            {
+              "pokemon": "fearow",
+              "prediction": "pidgeotto",
+              "correct": false
+            },
+            {
+              "pokemon": "gastly",
+              "prediction": "ditto",
+              "correct": false
+            },
+            {
+              "pokemon": "gengar",
+              "prediction": "gengar",
+              "correct": true
+            },
+            {
+              "pokemon": "geodude",
+              "prediction": "geodude",
+              "correct": true
+            },
+            {
+              "pokemon": "gloom",
+              "prediction": "tangela",
+              "correct": false
+            },
+            {
+              "pokemon": "growlithe",
+              "prediction": "growlithe",
+              "correct": true
+            },
+            {
+              "pokemon": "haunter",
+              "prediction": "haunter",
+              "correct": true
+            },
+            {
+              "pokemon": "hitmonchan",
+              "prediction": "starmie",
+              "correct": false
+            },
+            {
+              "pokemon": "horsea",
+              "prediction": "seadra",
+              "correct": false
+            },
+            {
+              "pokemon": "ivysaur",
+              "prediction": "venusaur",
+              "correct": false
+            },
+            {
+              "pokemon": "jigglypuff",
+              "prediction": "snorlax",
+              "correct": false
+            },
+            {
+              "pokemon": "jynx",
+              "prediction": "wobbuffet",
+              "correct": false
+            },
+            {
+              "pokemon": "kabutops",
+              "prediction": "scyther",
+              "correct": false
+            },
+            {
+              "pokemon": "kangaskhan",
+              "prediction": "nidoking",
+              "correct": false
+            },
+            {
+              "pokemon": "koffing",
+              "prediction": "weezing",
+              "correct": false
+            },
+            {
+              "pokemon": "krabby",
+              "prediction": "krabby",
+              "correct": true
+            },
+            {
+              "pokemon": "magikarp",
+              "prediction": "magikarp",
+              "correct": true
+            },
+            {
+              "pokemon": "magmar",
+              "prediction": "magmar",
+              "correct": true
+            },
+            {
+              "pokemon": "magnemite",
+              "prediction": "magnemite",
+              "correct": true
+            },
+            {
+              "pokemon": "metapod",
+              "prediction": "suicune",
+              "correct": false
+            },
+            {
+              "pokemon": "moltres",
+              "prediction": "articuno",
+              "correct": false
+            },
+            {
+              "pokemon": "mr",
+              "prediction": "psyduck",
+              "correct": false
+            },
+            {
+              "pokemon": "nidoran\u2642",
+              "prediction": "cloyster",
+              "correct": false
+            },
+            {
+              "pokemon": "onix",
+              "prediction": "onix",
+              "correct": true
+            },
+            {
+              "pokemon": "paras",
+              "prediction": "krabby",
+              "correct": false
+            },
+            {
+              "pokemon": "pidgeotto",
+              "prediction": "moltres",
+              "correct": false
+            },
+            {
+              "pokemon": "pikachu",
+              "prediction": "pikachu",
+              "correct": true
+            },
+            {
+              "pokemon": "ponyta",
+              "prediction": "ponyta",
+              "correct": true
+            },
+            {
+              "pokemon": "primeape",
+              "prediction": "primeape",
+              "correct": true
+            },
+            {
+              "pokemon": "psyduck",
+              "prediction": "psyduck",
+              "correct": true
+            },
+            {
+              "pokemon": "raichu",
+              "prediction": "raichu",
+              "correct": true
+            },
+            {
+              "pokemon": "raticate",
+              "prediction": "raticate",
+              "correct": true
+            },
+            {
+              "pokemon": "sandshrew",
+              "prediction": "snorlax",
+              "correct": false
+            },
+            {
+              "pokemon": "scyther",
+              "prediction": "scyther",
+              "correct": true
+            },
+            {
+              "pokemon": "seaking",
+              "prediction": "squirtle",
+              "correct": false
+            },
+            {
+              "pokemon": "seel",
+              "prediction": "dewgong",
+              "correct": false
+            },
+            {
+              "pokemon": "slowbro",
+              "prediction": "quilava",
+              "correct": false
+            },
+            {
+              "pokemon": "snorlax",
+              "prediction": "snorlax",
+              "correct": true
+            },
+            {
+              "pokemon": "squirtle",
+              "prediction": "bidoof",
+              "correct": false
+            },
+            {
+              "pokemon": "venonat",
+              "prediction": "venonat",
+              "correct": true
+            },
+            {
+              "pokemon": "vileplume",
+              "prediction": "panpour",
+              "correct": false
+            },
+            {
+              "pokemon": "vulpix",
+              "prediction": "alolan vulpix",
+              "correct": false
+            },
+            {
+              "pokemon": "wartortle",
+              "prediction": "cyndaquil",
+              "correct": false
+            }
+          ]
+        },
+        "gemini-2.5-flash-preview-05-20": {
+          "correct": 20,
+          "total": 61,
+          "responses": [
+            {
+              "pokemon": "abra",
+              "prediction": "arcanine",
+              "correct": false
+            },
+            {
+              "pokemon": "aerodactyl",
+              "prediction": "dragonite",
+              "correct": false
+            },
+            {
+              "pokemon": "alakazam",
+              "prediction": "machamp",
+              "correct": false
+            },
+            {
+              "pokemon": "arbok",
+              "prediction": "wooper",
+              "correct": false
+            },
+            {
+              "pokemon": "arcanine",
+              "prediction": "arcanine",
+              "correct": true
+            },
+            {
+              "pokemon": "bellsprout",
+              "prediction": "bellsprout",
+              "correct": true
+            },
+            {
+              "pokemon": "bulbasaur",
+              "prediction": "ivysaur",
+              "correct": false
+            },
+            {
+              "pokemon": "butterfree",
+              "prediction": "butterfree",
+              "correct": true
+            },
+            {
+              "pokemon": "caterpie",
+              "prediction": "mankey",
+              "correct": false
+            },
+            {
+              "pokemon": "charmander",
+              "prediction": "charmander",
+              "correct": true
+            },
+            {
+              "pokemon": "clefairy",
+              "prediction": "jigglypuff",
+              "correct": false
+            },
+            {
+              "pokemon": "cloyster",
+              "prediction": "pikachu",
+              "correct": false
+            },
+            {
+              "pokemon": "cubone",
+              "prediction": "cubone",
+              "correct": true
+            },
+            {
+              "pokemon": "diglett",
+              "prediction": "gastly",
+              "correct": false
+            },
+            {
+              "pokemon": "ditto",
+              "prediction": "ditto",
+              "correct": true
+            },
+            {
+              "pokemon": "eevee",
+              "prediction": "eevee",
+              "correct": true
+            },
+            {
+              "pokemon": "exeggcute",
+              "prediction": "ditto",
+              "correct": false
+            },
+            {
+              "pokemon": "farfetchd",
+              "prediction": "wingull",
+              "correct": false
+            },
+            {
+              "pokemon": "fearow",
+              "prediction": "pidgeotto",
+              "correct": false
+            },
+            {
+              "pokemon": "gastly",
+              "prediction": "muk",
+              "correct": false
+            },
+            {
+              "pokemon": "gengar",
+              "prediction": "gengar",
+              "correct": true
+            },
+            {
+              "pokemon": "geodude",
+              "prediction": "machop",
+              "correct": false
+            },
+            {
+              "pokemon": "gloom",
+              "prediction": "tangela",
+              "correct": false
+            },
+            {
+              "pokemon": "growlithe",
+              "prediction": "growlithe",
+              "correct": true
+            },
+            {
+              "pokemon": "haunter",
+              "prediction": "gastly",
+              "correct": false
+            },
+            {
+              "pokemon": "hitmonchan",
+              "prediction": "starmie",
+              "correct": false
+            },
+            {
+              "pokemon": "horsea",
+              "prediction": "horsea",
+              "correct": true
+            },
+            {
+              "pokemon": "ivysaur",
+              "prediction": "jigglypuff",
+              "correct": false
+            },
+            {
+              "pokemon": "jigglypuff",
+              "prediction": "snorlax",
+              "correct": false
+            },
+            {
+              "pokemon": "jynx",
+              "prediction": "oddish",
+              "correct": false
+            },
+            {
+              "pokemon": "kabutops",
+              "prediction": "scyther",
+              "correct": false
+            },
+            {
+              "pokemon": "kangaskhan",
+              "prediction": "snorlax",
+              "correct": false
+            },
+            {
+              "pokemon": "koffing",
+              "prediction": "grimer",
+              "correct": false
+            },
+            {
+              "pokemon": "krabby",
+              "prediction": "krabby",
+              "correct": true
+            },
+            {
+              "pokemon": "magikarp",
+              "prediction": "magikarp",
+              "correct": true
+            },
+            {
+              "pokemon": "magmar",
+              "prediction": "feraligatr",
+              "correct": false
+            },
+            {
+              "pokemon": "magnemite",
+              "prediction": "magnemite",
+              "correct": true
+            },
+            {
+              "pokemon": "metapod",
+              "prediction": "kingdra",
+              "correct": false
+            },
+            {
+              "pokemon": "moltres",
+              "prediction": "articuno",
+              "correct": false
+            },
+            {
+              "pokemon": "mr",
+              "prediction": "mr. mime",
+              "correct": false
+            },
+            {
+              "pokemon": "nidoran\u2642",
+              "prediction": "gengar",
+              "correct": false
+            },
+            {
+              "pokemon": "onix",
+              "prediction": "onix",
+              "correct": true
+            },
+            {
+              "pokemon": "paras",
+              "prediction": "jynx",
+              "correct": false
+            },
+            {
+              "pokemon": "pidgeotto",
+              "prediction": "pidgey",
+              "correct": false
+            },
+            {
+              "pokemon": "pikachu",
+              "prediction": "pikachu",
+              "correct": true
+            },
+            {
+              "pokemon": "ponyta",
+              "prediction": "ponyta",
+              "correct": true
+            },
+            {
+              "pokemon": "primeape",
+              "prediction": "mankey",
+              "correct": false
+            },
+            {
+              "pokemon": "psyduck",
+              "prediction": "psyduck",
+              "correct": true
+            },
+            {
+              "pokemon": "raichu",
+              "prediction": "raichu",
+              "correct": true
+            },
+            {
+              "pokemon": "raticate",
+              "prediction": "rattata",
+              "correct": false
+            },
+            {
+              "pokemon": "sandshrew",
+              "prediction": "snorlax",
+              "correct": false
+            },
+            {
+              "pokemon": "scyther",
+              "prediction": "scyther",
+              "correct": true
+            },
+            {
+              "pokemon": "seaking",
+              "prediction": "squirtle",
+              "correct": false
+            },
+            {
+              "pokemon": "seel",
+              "prediction": "lapras",
+              "correct": false
+            },
+            {
+              "pokemon": "slowbro",
+              "prediction": "rhydon",
+              "correct": false
+            },
+            {
+              "pokemon": "snorlax",
+              "prediction": "snorlax",
+              "correct": true
+            },
+            {
+              "pokemon": "squirtle",
+              "prediction": "totodile",
+              "correct": false
+            },
+            {
+              "pokemon": "venonat",
+              "prediction": "tangela",
+              "correct": false
+            },
+            {
+              "pokemon": "vileplume",
+              "prediction": "bellossom",
+              "correct": false
+            },
+            {
+              "pokemon": "vulpix",
+              "prediction": "arcanine",
+              "correct": false
+            },
+            {
+              "pokemon": "wartortle",
+              "prediction": "pikachu",
+              "correct": false
+            }
+          ]
+        }
+      }
+    }
+  }
+}

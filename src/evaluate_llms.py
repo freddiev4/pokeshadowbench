@@ -38,12 +38,15 @@ MODEL_PROVIDER_MAP = {
         "o4-mini-2025-04-16",
         "gpt-4.1-2025-04-14",
         "gpt-4o-2024-11-20",
+        "gpt-5-nano-2025-08-07",
+        "gpt-5-mini-2025-08-07",
+        "gpt-5-2025-08-07",
     ],
     "anthropic": [
+        "claude-opus-4-1-20250805",
         "claude-opus-4-20250514",
         "claude-sonnet-4-20250514",
         "claude-3-7-sonnet-20250219",
-        "claude-3-5-sonnet-20241022",
     ],
     "google": [
         "gemini-2.5-pro-preview-05-06",
@@ -82,7 +85,7 @@ def query_openai(model: str, image: BytesIO, user_prompt: str = DEFAULT_USER_PRO
     """Query OpenAI's Vision models."""
     # use max_completion_tokens for o4-mini-2025-04-16. otherwise use max_tokens
     tokens_params = {}
-    if model == "o4-mini-2025-04-16" and with_thinking:
+    if ("o4" in model or "gpt-5" in model) and with_thinking:
         tokens_params["max_completion_tokens"] = MAX_TOKENS + 50
     else:
         tokens_params["max_completion_tokens"] = MAX_TOKENS

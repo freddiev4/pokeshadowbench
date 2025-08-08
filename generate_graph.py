@@ -15,24 +15,33 @@ with open(args.json_file, 'r') as f:
 
 # Create shorter model names for better visualization
 model_name_mapping = {
-    "openai/o4-mini-2025-04-16": "o4-Mini",
-    "openai/gpt-4.1-2025-04-14": "GPT-4.1",
-    "openai/gpt-4o-2024-11-20": "GPT-4o",
-    "anthropic/claude-opus-4-20250514": "Claude Opus",
-    "anthropic/claude-sonnet-4-20250514": "Claude Sonnet 4",
-    "anthropic/claude-3-7-sonnet-20250219": "Claude 3.7 Sonnet",
-    "anthropic/claude-3-5-sonnet-20241022": "Claude 3.5 Sonnet",
-    "google/gemini-2.5-pro-preview-05-06": "Gemini 2.5 Pro",
-    "google/gemini-2.5-flash-preview-04-17": "Gemini 2.5 Flash"
+    "o4-mini-2025-04-16": "o4-Mini",
+    "gpt-4.1-2025-04-14": "GPT-4.1",
+    "gpt-4o-2024-11-20": "GPT-4o",
+    "gpt-5-nano-2025-08-07": "GPT-5 Nano",
+    "gpt-5-mini-2025-08-07": "GPT-5 Mini",
+    "gpt-5-2025-08-07": "GPT-5",
+    "claude-opus-4-1-20250805": "Claude Opus 4.1",
+    "claude-opus-4-20250514": "Claude Opus 4",
+    "claude-sonnet-4-20250514": "Claude Sonnet 4",
+    "claude-3-7-sonnet-20250219": "Claude 3.7 Sonnet",
+    "gemini-2.5-pro-preview-05-06": "Gemini 2.5 Pro",
+    "gemini-2.5-flash-preview-05-20": "Gemini 2.5 Flash"
 }
 
 # Extract data for visualization
 model_data = []
 
-for provider, provider_models in data.items():
+# Handle the new format where data is under "default" -> "providers"
+if "default" in data:
+    providers_data = data["default"]["providers"]
+else:
+    # Fallback to old format if needed
+    providers_data = data
+
+for provider, provider_models in providers_data.items():
     for model_name, model_info in provider_models.items():
-        full_model_name = f"{provider}/{model_name}"
-        short_name = model_name_mapping.get(full_model_name, full_model_name)
+        short_name = model_name_mapping.get(model_name, model_name)
         
         correct_count = model_info['correct']
         total_count = model_info['total']
