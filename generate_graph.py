@@ -15,18 +15,22 @@ with open(args.json_file, 'r') as f:
 
 # Create shorter model names for better visualization
 model_name_mapping = {
-    "o4-mini-2025-04-16": "o4-Mini",
+    "o4-mini-2025-04-16": "o4-mini",
     "gpt-4.1-2025-04-14": "GPT-4.1",
     "gpt-4o-2024-11-20": "GPT-4o",
     "gpt-5-nano-2025-08-07": "GPT-5 Nano",
     "gpt-5-mini-2025-08-07": "GPT-5 Mini",
     "gpt-5-2025-08-07": "GPT-5",
+    "gpt-5.1-2025-11-13": "GPT-5.1",
     "claude-opus-4-1-20250805": "Claude Opus 4.1",
     "claude-opus-4-20250514": "Claude Opus 4",
     "claude-sonnet-4-20250514": "Claude Sonnet 4",
     "claude-3-7-sonnet-20250219": "Claude 3.7 Sonnet",
+    "claude-sonnet-4-5-20250929": "Claude Sonnet 4.5",
+    "claude-haiku-4-5-20251001": "Claude Haiku 4.5",
     "gemini-2.5-pro-preview-05-06": "Gemini 2.5 Pro",
-    "gemini-2.5-flash-preview-05-20": "Gemini 2.5 Flash"
+    "gemini-2.5-flash-preview-05-20": "Gemini 2.5 Flash",
+    "gemini-3-pro-preview": "Gemini 3 Pro"
 }
 
 # Extract data for visualization
@@ -64,23 +68,22 @@ df = pd.DataFrame(model_data)
 df = df.sort_values('Accuracy', ascending=False)
 
 # Set up the plot style
-plt.figure(figsize=(14, 8))
+plt.figure(figsize=(10, 12))
 sns.set_style("whitegrid")
 
-# Create the bar plot
-ax = sns.barplot(data=df, x='Model', y='Accuracy', palette='viridis')
+# Create the horizontal bar plot
+ax = sns.barplot(data=df, x='Accuracy', y='Model', hue='Model', palette='viridis', legend=False)
 
 # Customize the plot
 plt.title('Pokemon Prediction Accuracy by Model', fontsize=16, fontweight='bold', pad=20)
-plt.xlabel('Model', fontsize=12, fontweight='bold')
-plt.ylabel('Accuracy (%)', fontsize=12, fontweight='bold')
-plt.xticks(rotation=45, ha='right')
-plt.ylim(0, 100)
+plt.xlabel('Accuracy (%)', fontsize=12, fontweight='bold')
+plt.ylabel('Model', fontsize=12, fontweight='bold')
+plt.xlim(0, 100)
 
 # Add value labels on bars
 for i, (idx, row) in enumerate(df.iterrows()):
-    ax.text(i, row['Accuracy'] + 1, f"{row['Accuracy']:.1f}%", 
-            ha='center', va='bottom', fontsize=10, fontweight='bold')
+    ax.text(row['Accuracy'] + 1, i, f"{row['Accuracy']:.1f}%", 
+            ha='left', va='center', fontsize=10, fontweight='bold')
 
 # Adjust layout to prevent label cutoff
 plt.tight_layout()

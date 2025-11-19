@@ -17,15 +17,22 @@ models = []
 
 # Create shorter model names for better table formatting
 model_name_mapping = {
-    "openai/o4-mini-2025-04-16": "o4-Mini",
+    "openai/o4-mini-2025-04-16": "o4-mini",
     "openai/gpt-4.1-2025-04-14": "GPT-4.1",
     "openai/gpt-4o-2024-11-20": "GPT-4o",
-    "anthropic/claude-opus-4-20250514": "Claude Opus",
+    "openai/gpt-5-nano-2025-08-07": "GPT-5 Nano",
+    "openai/gpt-5-mini-2025-08-07": "GPT-5 Mini",
+    "openai/gpt-5-2025-08-07": "GPT-5",
+    "openai/gpt-5.1-2025-11-13": "GPT-5.1",
+    "anthropic/claude-opus-4-1-20250805": "Claude Opus 4.1",
+    "anthropic/claude-opus-4-20250514": "Claude Opus 4",
     "anthropic/claude-sonnet-4-20250514": "Claude Sonnet 4",
     "anthropic/claude-3-7-sonnet-20250219": "Claude 3.7 Sonnet",
-    "anthropic/claude-3-5-sonnet-20241022": "Claude 3.5 Sonnet",
+    "anthropic/claude-sonnet-4-5-20250929": "Claude Sonnet 4.5",
+    "anthropic/claude-haiku-4-5-20251001": "Claude Haiku 4.5",
     "google/gemini-2.5-pro-preview-05-06": "Gemini 2.5 Pro",
-    "google/gemini-2.5-flash-preview-04-17": "Gemini 2.5 Flash"
+    "google/gemini-2.5-flash-preview-05-20": "Gemini 2.5 Flash",
+    "google/gemini-3-pro-preview": "Gemini 3 Pro"
 }
 
 # Collect all models and Pokemon

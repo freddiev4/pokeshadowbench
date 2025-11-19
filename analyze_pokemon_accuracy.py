@@ -1,15 +1,29 @@
 import json
+import argparse
 from collections import defaultdict
 
+# Parse command line arguments
+parser = argparse.ArgumentParser(description='Analyze Pokémon recognition accuracy from LLM results')
+parser.add_argument('json_file', help='Path to the JSON results file')
+args = parser.parse_args()
+
 # Read the JSON file
-with open('results/llm-results-2025-05-24_19-13-58.json', 'r') as f:
+with open(args.json_file, 'r') as f:
     data = json.load(f)
 
 # Dictionary to store results for each Pokemon
 pokemon_results = defaultdict(lambda: {'correct': 0, 'total': 0})
 
 # Process all models and their responses
-for provider, provider_models in data.items():
+# Handle both old format (direct providers) and new format (default.providers)
+if 'default' in data and 'providers' in data['default']:
+    # New format: data['default']['providers']
+    providers = data['default']['providers']
+else:
+    # Old format: data directly contains providers
+    providers = data
+
+for provider, provider_models in providers.items():
     for model_name, model_data in provider_models.items():
         for response in model_data['responses']:
             pokemon = response['pokemon']
