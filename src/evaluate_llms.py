@@ -41,16 +41,20 @@ MODEL_PROVIDER_MAP = {
         "gpt-5-nano-2025-08-07",
         "gpt-5-mini-2025-08-07",
         "gpt-5-2025-08-07",
+        "gpt-5.1-2025-11-13",
     ],
     "anthropic": [
         "claude-opus-4-1-20250805",
         "claude-opus-4-20250514",
         "claude-sonnet-4-20250514",
         "claude-3-7-sonnet-20250219",
+        "claude-sonnet-4-5-20250929",
+        "claude-haiku-4-5-20251001",
     ],
     "google": [
         "gemini-2.5-pro-preview-05-06",
-        "gemini-2.5-flash-preview-05-20"
+        "gemini-2.5-flash-preview-05-20",
+        "gemini-3-pro-preview",
     ]
 }
 
@@ -583,4 +587,5 @@ if __name__ == "__main__":
         with_thinking=args.with_thinking,
         prompts_file=args.prompts_file,
         specific_prompts=args.prompts
+
     )
