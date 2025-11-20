@@ -35,8 +35,15 @@ model_name_mapping = {
     "google/gemini-3-pro-preview": "Gemini 3 Pro"
 }
 
+# Handle the new format where data is under "default" -> "providers"
+if "default" in data:
+    providers_data = data["default"]["providers"]
+else:
+    # Fallback to old format if needed
+    providers_data = data
+
 # Collect all models and Pokemon
-for provider, provider_models in data.items():
+for provider, provider_models in providers_data.items():
     for model_name, model_data in provider_models.items():
         full_model_name = f"{provider}/{model_name}"
         models.append(full_model_name)
@@ -50,7 +57,7 @@ all_pokemon = sorted(list(all_pokemon))
 results = defaultdict(dict)
 
 # Populate results
-for provider, provider_models in data.items():
+for provider, provider_models in providers_data.items():
     for model_name, model_data in provider_models.items():
         full_model_name = f"{provider}/{model_name}"
         
